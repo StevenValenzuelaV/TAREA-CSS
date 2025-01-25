@@ -1,0 +1,251 @@
+body{
+    background-color:  #dbcbc0;
+    font-family:'Arial Narrow','Arial';
+}
+header{
+    background-color:  #c7aa9c;
+}
+header #logo{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+header #titulo{
+    font-size: 18px;
+}
+header #menu{
+    text-align: center;
+    font-size: 20px;
+}
+header #menu #navegacion {
+    background-color: #8a5a4b;
+    list-style-type: none; 
+    padding: 15px;
+    border-radius: 10px;
+}    
+header #menu #navegacion a{
+        text-decoration: none;
+        color: black;
+        padding: 5px 10px;
+        margin: 0 15px;
+        transition: font-size 0.4s;
+}
+header #menu #navegacion a:hover{
+    background-color:  #392e2d ; 
+    border-radius: 15px; 
+    color: aliceblue;
+    font-size: 25px;
+  
+} 
+
+header #menu #navegacion .paginas{
+    margin-right: 20px;
+    display: inline;
+    
+}
+.principal{
+    margin-left:170px;
+    margin-right:170px;
+}
+h1{
+  font-size: 40px;
+  color: #9B1B30;
+}
+h2{
+  font-size: 35px;
+  color: #9B1B30;
+}
+h3{
+    font-size: 30px;
+    color: #9B1B30;
+}
+h4{
+    font-size: 25px;
+    color: #9B1B30;
+}
+.inicio{
+    text-align: center; 
+    font-size: 20px; 
+    color:#003366;  
+}   
+.principal .inicio #foto1{
+    width:53%;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+.principal .inicio #foto2{
+    width:45%;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.principal #puerto_rico{
+    width:50%;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+.contenedor{
+    text-align: center;
+}
+.parrafo{
+        text-align:center;
+        text-align: justify;
+        width: 90%;
+        line-height: 1.5; 
+        font-size: 20px;
+        color: #003366;
+}
+
+.temas{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1.5; 
+    color: #0f0f0f;
+}
+.temas a{
+    text-decoration: none;
+    transition: font-size 0.3s;
+}
+.temas a:hover{
+    color:  #8a5a4b !important; 
+    font-size: 25px !important;
+}   
+#club a{
+ color: #0b4ae9;
+}
+#nadiesabe a{
+    color: #40312d;
+}
+#where a{
+    color: #647c94;
+}
+#dime a{
+    color: #346194;
+   }
+#como a{
+    color: #fbeb05;
+   }
+#soy a{
+    color: #34a580;
+   }
+#adivino a{
+    color: #f5f0ea;
+   }
+#agosto a{
+    color: #f09413;
+   }
+.titulo_t{
+    font-size: 30px;
+    color: #ffffff;
+}
+.tabla1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(..//img/Ultimo_tour.jpeg);
+    background-position: center; 
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.tabla1 table{
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #fffdfd;
+    color: #fffdfd;  
+}
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fffdfd;
+}
+.tabla2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabla2 table{
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid #fffdfd;
+    color: #fffdfd;  
+}
+.imgtabla{
+    width: 20%;
+    border: 2px solid white;
+}
+#tit_tabla2{
+    background-color: #647c94;
+}
+#x100{
+ background: url(../img/x100pre.jpeg);
+}
+#oasis{
+    background: url(../img/J_Balvin_and_Bad_Bunny_-_Oasis.png);
+}
+#yhlqm{
+    background: url(../img/Yhlqmdlg.jpeg);
+}
+#ultimo{
+    background: url(../img/Ultimo_tour.jpeg);
+}
+#unverano{
+    background: url(../img/Verano_sin_ti.jpeg);
+}
+#nadisabelo{
+    background: url(../img/nadie_sabe.jpeg);
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#contacto{
+    text-align: center;
+    border: 2px solid black;
+    background-image:url(../img/nadie_sabe.jpeg);
+    background-position: center; 
+    background-size: 185%;
+    background-repeat: no-repeat; 
+    margin: 0 auto;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+    
+}
+  #contacto h1 {
+    font-size: 24px;
+  }
+  
+  #contacto p {
+    font-size: 18px;
+  } 
+input, textarea {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #8a5a4b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  input[type="submit"]:hover {
+    background-color: #392e2d; 
+  }
+  
+footer{
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    color:black;
+    border-top: 1px solid #050505;  
+    width: 60%;
+    margin: 0 auto;
+}
+footer #pie{
+    width: 20%;
+}
